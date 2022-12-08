@@ -1,0 +1,20 @@
+### Create new User
+#POST http://localhost:3030/create-user HTTP/1.1
+GET http://10.23.102.97:3030/create-user HTTP/1.1
+
+###Enviar 
+POST http://localhost:3030/send-content HTTP/1.1
+content-type: application/json
+
+{
+    "content":"Mi perro murio. Me siento destrozada"
+}
+
+
+###Enviar 
+POST http://localhost:3030/send-content HTTP/1.1
+content-type: application/json
+
+{
+    "content":"Mi mama ha muerto"
+}
