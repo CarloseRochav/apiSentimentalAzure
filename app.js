@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();//
-const port = 3030;
+const port = process.env.PORT || 3030;
 const azureController = require("./azureController");
 
 
@@ -12,8 +12,6 @@ app.use(express.json());
 app.get("/", (req, res) => {
     res.send("Hello World");
 })
-
-
 
 
 //Ruta para obtener comentarios de una publicacion

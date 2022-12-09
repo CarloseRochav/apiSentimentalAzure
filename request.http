@@ -18,3 +18,11 @@ content-type: application/json
 {
     "content":"Mi mama ha muerto"
 }
+
+###Enviar 
+POST https://courageous-lollipop-44b7bf.netlify.app/send-content HTTP/1.1
+content-type: application/json
+
+{
+    "content":"Mi mama ha muerto"
+}
