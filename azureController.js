@@ -66,7 +66,7 @@ azureController.sendData = async (req, res) => {
                         code: 201,
                         msg: "Azure Dice...Overall: "+ result.sentiment,
                         sentimientoGeneral:result.sentiment,
-                        ScoresP: result.confidenceScores.negative,
+                        ScoresP: result.confidenceScores.positive,
                         ScoresNeu:result.confidenceScores.neutral,
                         ScoresNeg:result.confidenceScores.negative
             
